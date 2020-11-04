@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 import Dropdown from './components/Dropdown';
-
+import Translate from './components/Translate/Translate';
 
 
 const options = [
@@ -35,7 +35,7 @@ export default () => {
         :
         null
       }
-
+      <Translate />
     </div>
   );
 };
