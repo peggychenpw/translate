@@ -4,6 +4,14 @@ import Dropdown from '../Dropdown'
 
 const options = [
     {
+        label: 'Chinese (Traditional)',
+        value: "zh-TW"
+    },
+    {
+        label: 'Polish',
+        value: "pl"
+    },
+    {
         label: 'Afrikaans',
         value: 'af'
     },
@@ -14,6 +22,10 @@ const options = [
     {
         label: 'Hindi',
         value: 'hi'
+    },
+    {
+        label: 'English',
+        value: 'en'
     },
 ]
 

@@ -1,3 +1,4 @@
-注意有兩支分支
-master是dropdown
-translate 是gooel 翻譯
+#Simple version of Google Translate
+React, Google translate api 
+
+  <img src="./public/translate-demo.gif" width="500"/>

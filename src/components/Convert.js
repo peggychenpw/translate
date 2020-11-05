@@ -1,6 +1,8 @@
 import React from 'react'
 import { useEffect, useState } from 'react';
 import axios from 'axios';
+import './Translate/convert.css'
+
 
 const Convert = ({ language, text }) => {
     const [translated, setTranslated] = useState("")
@@ -35,8 +37,10 @@ const Convert = ({ language, text }) => {
     }, [language, debouncedText])
 
     return (
-        <div>
-            <h2>{translated}</h2>
+        <div >
+            <div className="convert">
+                <p>{translated}</p>
+            </div>
         </div>
     )
 }

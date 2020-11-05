@@ -1,7 +1,12 @@
 .app {
- 
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
+.container {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: aliceblue;
+    height: 60vh;
 }
